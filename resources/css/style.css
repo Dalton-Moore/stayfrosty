@@ -1,0 +1,82 @@
+body html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+/* change header color */
+header {
+    color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(6, 150, 150);
+    z-index: 1000;
+    box-shadow: ;
+    border-bottom: 4px red;
+}
+
+/* toolbar area */
+
+.toolbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar li {
+    margin: 0 15px;
+}
+
+.container {
+    width: 30rem;
+    height: 30rem;
+    background: white;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity; 
+    padding-top: 100px;
+    /* can put mandatory where proximity is */
+}
+
+.container div {
+    min-width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 10rem;
+    color: white;
+    scroll-snap-align: center;
+}
+
+.box1 {
+    background-color:   royalblue;
+    font-size: 5rem;
+}
+
+.box2 {
+    background-color: aqua;
+    font-size: 5rem;
+}
+
+.box3 {
+    background-color: green;
+    font-size: 5rem;
+}
+
+.box4 {
+    background-color:  red;
+    font-size: 5rem;
+}
+
+.box5 {
+    background-color: coral;
+    font-size: 5rem;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(21, 95, 199), rgb(214, 166, 69)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
